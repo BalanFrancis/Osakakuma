@@ -31,7 +31,21 @@ public class Vijay {
 		
 		String printUsername = driver.findElement(By.id("email")).getAttribute("value");
 		System.out.println(printUsername);
-		driver.quit();
+	
+		driver.get("https://demo.guru99.com/test/drag_drop.html");
+		
+		driver.manage().window().maximize();
+		
+		WebElement src = driver.findElement(By.xpath("//a[text()=' BANK ']"));
+		WebElement des = driver.findElement(By.id("bank"));
+		
+		WebElement src1 = driver.findElement(By.xpath("//a[text()=' 5000']"));
+		WebElement des1 = driver.findElement(By.id("amt7"));
+		
+		WebElement srcsales = driver.findElement(By.xpath("//a[text()=' SALES ']"));
+		WebElement dessales = driver.findElement(By.id("loan"));
+		
+		WebElement dessales1 = driver.findElement(By.id("amt8"));
 		
 		
 				
