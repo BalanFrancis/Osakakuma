@@ -19,8 +19,8 @@ public class Vijay {
 		WebElement txtUserName = driver.findElement(By.xpath("//input[@name='email']"));
 				
 			txtUserName.sendKeys("BalanFrancis");
-
-			
+			System.out.println("Vijay");
+					
 			
 		WebElement txtPassword = driver.findElement(By.id("pass"));
 		txtPassword.sendKeys("123456");
