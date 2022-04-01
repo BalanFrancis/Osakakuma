@@ -20,9 +20,9 @@ public class Vijay {
 				
 			txtUserName.sendKeys("BalanFrancis");
 			System.out.println("Balan");
-
-			
-			
+			System.out.println("Vijay");
+					
+		
 		WebElement txtPassword = driver.findElement(By.id("pass"));
 		txtPassword.sendKeys("123456");
 		
